@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2-2</title>
+</head>
+<body>
+    <h3>2.연산자</h3>
+    
+    <h4>산술연산자</h4>
+    <script>
+        var num1 = 1;
+        var num2 = 2;
+        var num3 = 3;
+
+        var r1 = num1 + num2;
+        var r2 = num1 - num2;
+        var r3 = num1 * num2;
+        var r4 = num1 / num2;
+        var r5 = num1 % num2;
+
+        document.write('r1 : ' + r1 + '<br/>');
+        document.write('r2 : ' + r2 + '<br/>');
+        document.write('r3 : ' + r3 + '<br/>');
+        document.write('r4 : ' + r4 + '<br/>');
+        document.write('r5 : ' + r5 + '<br/>');
+    </script>
+
+    <h4>복합대입연산자</h4>
+    <script>
+        var var1 = 1;
+        var var2 = 2;
+        var var3 = 3;
+        var var4 = 4;
+
+        var1 += 1;
+        var2 -= 2;
+        var3 *= 3;
+        var4 /= 4;
+
+        document.write('var1 : ' + var1 + '<br/>');
+        document.write('var2 : ' + var2 + '<br/>');
+        document.write('var3 : ' + var3 + '<br/>');
+        document.write('var4 : ' + var4 + '<br/>');
+    </script>
+
+    <h4>비교연산자</h4>
+    <script>
+        var n1 = 1, n2 = 2,n3 = 3, n4 = 4;
+
+        var rs1 = n1 > n2;
+        var rs2 = n1 < n2;
+        var rs3 = n2 >= n3;
+        var rs4 = n2 <= n3;
+        var rs5 = n3 != n4;
+
+        document.write("rs1 : " + rs1 + "<br/>");
+        document.write("rs2 : " + rs2 + "<br/>");
+        document.write("rs3 : " + rs3 + "<br/>");
+        document.write("rs4 : " + rs4 + "<br/>");
+        document.write("rs5 : " + rs5 + "<br/>");
+    </script>
+
+    <h4>논리연산자</h4>
+    <script>
+        var res1 = (n1 > 1) && (n2 > 2);
+        var res2 = (n1 < 2) && (n2 > 3);
+        var res3 = (n1 >= 1) && (n2 >= 1);
+        var res4 = (n2 > 3) || (n3 > 2);
+        var res5 = (n2 > 2) || (n3 > 5);
+        var res6 = !(n3 > n4);
+
+        document.write("");
+        document.write("res1 : " + res1 + "<br/>");
+        document.write("res2 : " + res2 + "<br/>");
+        document.write("res3 : " + res3 + "<br/>");
+        document.write("res4 : " + res4 + "<br/>");
+        document.write("res5 : " + res5 + "<br/>");
+    </script>
+
+</body>
+</html>
